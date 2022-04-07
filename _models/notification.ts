@@ -6,6 +6,4 @@ export class Notification{
     DateStamp?: string;
     Notification?: string;
     Status?: string;
-    OrderPackageID?: string;
-    ClientContactNo?: string;
 }

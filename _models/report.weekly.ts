@@ -1,6 +1,6 @@
 export class ReportWeekly{
     WeekNumber?: string;
-    WeekStart?: Date;
-    WeekEnd?: Date;
+    WeeStart?: string;
+    WeekEnd?: string;
     Amount?: number;
 }

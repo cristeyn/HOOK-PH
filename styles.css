@@ -20,9 +20,7 @@ body {
     color: #716d66;
     transition: color .2s ease,background-color .2s ease;
 }
-.file-names{
-    display:none;
-}
+
 .form-control {
     box-shadow: none!important;
 }
@@ -66,6 +64,10 @@ label{
     color: #968e7e;
 }
 /* button */
+.btn-menu{
+    height: 4rem;
+    width: 4rem;
+}
 .btn {
     /* display: block; */
   
@@ -87,6 +89,13 @@ label{
 .btn-light{
     border: none;
     line-height: 1rem;
+}
+.btn-img{
+    position: absolute;
+    left: 3rem;
+    height: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .btn.btn-light:hover:not(.btn-active){
     color: var(--primary-color-light);
@@ -201,7 +210,13 @@ label{
     border-radius: .95rem;
     
 }
-
+.card-widget{
+    min-height: 14rem;
+    display: grid;
+}
+.widget{
+    margin: auto;
+}
 /* Table */
 .table-responsive{
     overflow-y: clip !important;
@@ -351,9 +366,26 @@ details > button {
 .text-muted, p {
     color: #716d66 !important;
 }
-.font-size-s{
-    font-size: .95rem;
+/* nav */
+.navbar-fixed-bottom{
+    border-top: 1px dashed #e8e5dd!important;
 }
+/* image */
+.rounded-top {
+    border-top-left-radius: .95rem !important;
+    border-top-right-radius: .95rem !important;
+}
+.love-icon{
+    position: absolute;
+    right: .25rem;
+    height: 3rem;
+    padding: .5rem;
+}
+/* list */
+ .list>.table tbody tr td, .table tbody tr:not(:last-child){
+    border-bottom: 0px !important;
+}
+
 :root {
     --gray-color-light: #f8f6f2;
     --primary-color: var(--red-color);                                     /* Before: var(--blue-color) */
@@ -366,3 +398,6 @@ details > button {
     --text-color-on-primary-color-bg: var(--text-color-on-red-color-bg);   /* Before: var(--text-color-on-blue-color-bg) */
 }
 /* https://preview.keenthemes.com/good/apps/customers/view.html */
+
+
+

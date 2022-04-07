@@ -1,4 +1,3 @@
-import { Variation } from "./variation";
 
 export class Inclusion{
     ID?: string;

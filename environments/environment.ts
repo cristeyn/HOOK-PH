@@ -3,9 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  firebase: {
+    projectId: 'hook-ph',
+    appId: '1:305148913978:web:8af2e71fdeef5d1c86c803',
+    storageBucket: 'hook-ph.appspot.com',
+    apiKey: 'AIzaSyAQ0dWQnGhggMJ65zwDYzUOgXWohBpUgKo',
+    authDomain: 'hook-ph.firebaseapp.com',
+    messagingSenderId: '305148913978',
+  },
   production: false,
   webApiUrl: 'http://localhost/hook-ph/api/',
-  webUploadDir: 'http://localhost/hook-ph/upload/'
+  webUploadDir:  'http://localhost/hook-ph/upload/',
 };
 
 /*
@@ -16,9 +24,3 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
-
-/*
-  website username: hookphdelivery
-  
-  H00kPH@dm!n@k0
-*/

@@ -22,5 +22,7 @@ export class OrderPackage{
     Package?: string;
     Service?: string;
     RiderID?: string;
-    Rider?: string; 
+    Rider?: string;
+    Rating?: number;
+    Comment?: string;
 }

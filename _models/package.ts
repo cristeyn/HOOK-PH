@@ -1,4 +1,5 @@
 import { Item } from "./item";
+import { Rate } from "./rate";
 
 export class Package{
     ID?: string;
@@ -9,4 +10,6 @@ export class Package{
     AddOn?: Item[];
     ServiceID?: string;
     Service?: string;
+    Rating?: number;
+    Rate?: Rate[];
 }
