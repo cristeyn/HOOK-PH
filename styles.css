@@ -1,0 +1,368 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@fontsource/poppins"; 
+
+body {
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #716d66 !important;
+  }
+.search{
+    padding-left: 3rem !important;
+    background-image: url(assets/search.svg);
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position-x: .8rem;
+    background-position-y: .8rem;
+}
+.form-control.form-control-solid {
+    background-color: #f8f6f2;
+    border-color: #f8f6f2;
+    color: #716d66;
+    transition: color .2s ease,background-color .2s ease;
+}
+.file-names{
+    display:none;
+}
+.form-control {
+    box-shadow: none!important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .75rem 1rem;
+    font-size: 1.15rem;
+    font-weight: 600 !important;
+    line-height: 1.5;
+    color: #211f1c;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #efe9e1;
+    appearance: none;
+    border-radius: .95rem;
+    box-shadow: none!important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control-lg{
+    font-size: 1.15rem;
+    padding: 2rem;
+}
+/* Input Group */
+.input-group-append:not(:first-child)>.input-group-text{
+    border-top-right-radius: .95rem;
+    border-bottom-right-radius: .95rem;
+    border: none;
+    background-color: #f8f6f2;
+    font-weight: 600 !important;
+}
+.input-group-prepend:not(:last-child)>.input-group-text{
+    border-top-left-radius: .95rem;
+    border-bottom-left-radius: .95rem;
+    border: none;
+    background-color: #f8f6f2;
+}
+label{
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #968e7e;
+}
+/* button */
+.btn {
+    /* display: block; */
+  
+    padding: .75rem 1rem;
+    font-size: .90rem;
+    font-weight: 600;
+    line-height: 1.85;
+    color: #968e7e;
+    background-color: #fff;
+    border: 1px solid #efe9e1;
+    appearance: none;
+    border-radius: .95rem;
+    box-shadow: none!important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-inline{
+    display: inline;
+}
+.btn-light{
+    border: none;
+    line-height: 1rem;
+}
+.btn.btn-light:hover:not(.btn-active){
+    color: var(--primary-color-light);
+    background-color:   var(--primary-color-very-light) !important;
+}
+.btn-sm{
+    border-radius: .475rem;
+}
+.btn-lg{
+    font-size: 1.15rem;
+}
+.notif{
+    position: absolute;
+    top: .5rem;
+    font-size: .75rem;
+    padding: .2rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1rem;
+}
+/* Sidebar*/
+.sidebar{
+    background-color: #f8f6f2;
+    border:none;
+    font-weight: 600;
+}
+.sidebar-title{
+    color: inherit;
+}
+.sidebar-link{
+    font-size: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    padding: .75rem;
+    padding-left: 1.5rem;
+    color: #716d66 ;
+}
+.sidebar-link:hover{
+    color: #716d66 ;
+}
+
+.sidebar-link.active{
+    transition: color .2s ease,background-color .2s ease;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: .95rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+    padding-left: 1.5rem;
+}
+.sidebar-link.active:hover {
+    transition: color .2s ease,background-color .2s ease;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: .95rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+.sidebar-divider {
+    padding: var(--sidebar-divider-padding);
+    margin: var(--sidebar-divider-margin);
+    height: var(--sidebar-divider-height);
+    background-color: unset;
+    border: none;
+    border-bottom: 1px dashed #e0e0de;
+    
+}
+.sidebar-icon{
+    height: 0rem;
+    width: 0rem;
+    border-radius: .95rem;
+    font-size: 1rem;
+    color: #716d66;
+    
+}
+
+.sidebar-link-with-icon.active .sidebar-icon, .sidebar-link-with-icon.active:hover .sidebar-icon {
+    background-color: transparent;
+    color:white;
+    font-size: 1rem;
+    
+}
+.sidebar-link-with-icon:hover .sidebar-icon {
+    color:#716d66;
+}
+/* Content Title */
+.content-tile-description{
+    font-size: .75rem;
+}
+
+/* Navbar */
+.navbar{
+    border-bottom: none;
+}
+
+
+.no-flex{
+    display: block;
+    line-height: 1.25rem;
+}
+/* Form */
+.form-inline>.btn:not(:last-child), .form-inline>.form-control:not(:last-child){
+    margin-right: .5rem;
+}
+
+/* Card */
+.card{
+    border: 1px dashed #e8e5dd;
+    box-shadow: none;
+    border-radius: .95rem;
+    
+}
+
+/* Table */
+.table-responsive{
+    overflow-y: clip !important;
+    
+}
+.table {
+    width: 100%;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #968e7e!important;
+}
+
+.table thead tr,.table tbody tr td,.table tbody tr th, .table tbody tr:not(:last-child)  {
+    border-bottom: 1px dashed #e0e0de !important;
+}
+.table thead tr{
+    color: #b5b0aa;
+}
+*:focus {
+    outline: 0 !important;
+}
+button {
+    outline: none;
+  }
+/* Dropdown */
+
+.dropdown-menu{
+    border: none;
+    border-radius: .95rem;
+    background-color: #fff;
+    box-shadow: 0 0 50px 0 rgb(82 63 105 / 10%);
+    min-width: unset !important;
+}
+
+.dropdown:not(.dropup):not(.dropright):not(.dropleft).with-arrow.show .dropdown-menu::before{
+    display: none;
+}
+
+
+/* Label */
+small{
+    font-size: .9rem !important;
+}
+.label{
+    font-weight: 600 !important;
+    color: #716d66;
+}
+h1, h2, h3, h4, h5{
+    color: #716d66;
+}
+/* badge */
+.badge{
+    font-size: .9rem
+}
+/* Mat Paginator */
+.mat-paginator{
+    font-size:1rem;
+    font-weight: 600;
+    color: #716d66;
+}
+.mat-paginator-container{
+    justify-content: center !important;
+}
+.mat-paginator-page-size{
+    margin: 1rem;
+}
+
+.mat-icon-button{
+    display: block;
+    line-height: 1rem !important;
+    margin: 0.15rem !important;
+    height: 3.2rem !important;
+    width: 3.2rem !important;
+    font-size: .90rem;
+    font-weight: 600;
+    line-height: 1.85;
+    color: #968e7e;
+    background-color: #fff;
+    border: 1px solid #efe9e1 !important;
+    appearance: none;
+    border-radius: .95rem !important;
+    box-shadow: none!important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* Modal */
+.modal{
+    position: fixed;
+}
+@media (max-width: 576px){
+    .modal-content {
+        width: 95%;
+    }
+}
+
+/* Login */
+.login{
+    height: 100%;
+}
+.login-aside{
+    /* min-height: 28rem;
+    background-image: url('assets/login-ad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: var(--primary-color);
+}
+
+/* Collapse */
+.collapse-header:focus::after{
+    box-shadow: none;
+    color: #716d66;
+}
+details{
+    position: inherit;
+}
+details > button {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+}
+.collapse-header{
+    border: 1px dashed #e8e5dd;
+    color: #716d66;
+    font-size: 1.15rem;
+    background-color: #f8f6f2;
+}
+.collapse-panel[open] .collapse-header, .collapse-panel[open] .collapse-header:focus, .collapse-header:focus   {
+    background-color: #f8f6f2;
+    color: #716d66;
+}
+ .collapse-content{
+    border: 1px dashed #e8e5dd;
+    border-top: none;
+    color: #716d66;
+    font-size: 1.15rem;
+}
+/* borders */
+.border-bottom{
+    border-bottom: 1px dashed #e8e5dd!important;
+}
+.border-top{
+    border-top: 1px dashed #e8e5dd!important;
+}
+.border{
+    border: 1px dashed #e8e5dd!important;
+
+}
+.text-muted, p {
+    color: #716d66 !important;
+}
+.font-size-s{
+    font-size: .95rem;
+}
+:root {
+    --gray-color-light: #f8f6f2;
+    --primary-color: var(--red-color);                                     /* Before: var(--blue-color) */
+    --primary-color-light: var(--red-color-light);                         /* Before: var(--blue-color-light) */
+    --primary-color-very-light: var(--red-color-very-light);               /* Before: var(--blue-color-very-light) */
+    --primary-color-dark: var(--red-color-dark);                           /* Before: var(--blue-color-dark) */
+    --primary-color-very-dark: var(--red-color-very-dark);                 /* Before: var(--blue-color-very-dark) */
+    --primary-box-shadow-color: var(--red-box-shadow-color);               /* Before: var(--blue-box-shadow-color) */
+    --primary-box-shadow-color-darker: var(--red-box-shadow-color-darker); /* Before: var(--blue-box-shadow-color-darker) */
+    --text-color-on-primary-color-bg: var(--text-color-on-red-color-bg);   /* Before: var(--text-color-on-blue-color-bg) */
+}
+/* https://preview.keenthemes.com/good/apps/customers/view.html */
